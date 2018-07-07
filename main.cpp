@@ -29,11 +29,8 @@ void draw(){
     cout << endl;
 
     for(int i = 0; i < height; i++){
-
+        cout << "#";
         for(int j = 0; j < width; j++){
-            if(j == 0 || j == width - 1){
-                cout << "#";
-            }
             cout << " ";
         }
     }
